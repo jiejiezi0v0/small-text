@@ -43,11 +43,11 @@ dependencies = [
 
 [project.optional-dependencies]
 pytorch = [
-  "torch>=1.6.0"
+  "torch"
 ]
 transformers = [
   "small-text[pytorch]",
-  "transformers>=4.0.0"
+  "transformers"
 ]
 
 [project.urls]
